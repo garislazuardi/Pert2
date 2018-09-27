@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+int main() 
+{
+    
+	int hour, min;
+	cout<<"input minute : ";
+	cin>>hour;
+
+    min=hour*60;
+	cout<<"result : "<<min;
+	return 0;
+}
